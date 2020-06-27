@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<custom-sql>
+     <sql id="com.blogspot.chingovan.database.service.persistence.impl.StudentFinderImpl.getAllStudent">
+  <!--    -->
+    <![CDATA[
+     select * from student st
+     [$Full_Name$]
+    ]]>
+    </sql>
+    
+         <sql id="com.blogspot.chingovan.database.service.persistence.impl.StudentFinderImpl.getCountStudent">
+  <!--    -->
+    <![CDATA[
+     select count(*) from student st
+     [$Full_Name$]
+    ]]>
+    </sql>
+</custom-sql>
